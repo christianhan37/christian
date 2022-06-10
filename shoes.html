@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+</head>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Shoes</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Dates</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Merchandise</a>
+        <a href="#" class="w3-bar-item w3-button">Extras</a>
+        <a href="#" class="w3-bar-item w3-button">Media</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">Christians Shoe Store </h2>
+    <p class="w3-opacity"><i>We are sneaker heads and love informing people of new shoes</i></p>
+     <img src="https://docs.google.com/drawings/d/e/2PACX-1vTq5XpcESKN7NCDL2ZZzQli5EH5TaR7MrFef0nGjd11O4Ma6smYVWTW7TUT-aIQ0X5XJtgHascHDV6V/pub?w=960&amp;h=720">
+    <p class="w3-justify">We have created a website where you can always know upcoming shoes and the prices. There is always going to be 3 new shoes that you can buy on this website. There is limited stocks for each shoes, so make sure that you get your pair. All of our shoes are Guaranteed Authenticity and Guaranteed return policy for up to 30 days of payment. Enjoy this website and make sure to get all of the upcoming shoe dates here!! 
+</p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>adidas Yeezy Foam Runner "Onyx"</p>
+        <img src=https://houseofheat.co/app/uploads/2022/06/yeezy-foam-runner-desert-sand-release-date.jpg" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p> Air Jordan 4 Zen Master</p>
+        <img src=https://www.kicksonfire.com/wp-content/uploads/2022/01/Air-Jordan-4-Zen-Master-DH7138-506.jpeg" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Adidas Superstar shoes</p>
+        <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7ed0855435194229a525aad6009a0497_9366/Superstar_Shoes_White_EG4958_01_standard.jpg" alt="Random Name" style="width:60%">
+      </div>
+    </div>
+  </div>
+
+  <!-- The Tour Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">Shoes Date</h2>
+      <p class="w3-opacity w3-center"><i>Remember to get your shoes on these dates</i></p><br>
+
+      <ul class="w3-ul w3-border w3-white w3-text-grey">
+        <li class="w3-padding">adidas Yeezy Foam Runner "Onyx" June 8, 2022
+<span class="w3-tag w3-red w3-margin-left">Only 10 pairs Left</span></li>
+        <li class="w3-padding">Adidas Superstar Shoes Jan23, 2022 <span class="w3-tag w3-red w3-margin-left">only 20 pairs left</span></li>
+       <li class="w3-padding">Air Jordan 4 "Zen Master June 6, 2022 <span class="w3-tag w3-red w3-margin-left">only 5 pairs left</span></li>
+      </ul>
+
+     <div class="w3-third w3-margin-bottom">
+          <div class="w3-container w3-white">
+            <p><b>Adidas Superstar Shoes</b></p>
+            <p class="w3-opacity">Jan 23,2022</p>
+            <p>These new Yeezy shoes are very comfortable and will be worth buying</p>
+            <img src="https://hypebeast.com/2022/6/adidas-yeezy-foam-runner-onyx-official-look-release-info-hp8739">
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Shoes</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-container w3-white">
+            <p><b>adidas Yeezy Foam Runner "Onyx"</b></p>
+            <p class="w3-opacity">June 8, 2022</p>
+            <p>These new Yeezy shoes are very comfortable and will be worth buying</p>
+            <img src="https://hypebeast.com/2022/6/adidas-yeezy-foam-runner-onyx-official-look-release-info-hp8739">
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Shoes</button>
+          </div>
+    </div>
+          <div class="w3-container w3-white">
+            <p><b>Air Jordan 4 "Zen Master</b></p>
+            <p class="w3-opacity">June 6, 2022</p>
+            <p>New Jordans releasing </p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy shoes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ticket Modal -->
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Buy Shoes</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Shoes, $250 per person</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="How many?">
+        <p><label><i class="fa fa-user"></i> Send To</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>If you have any questions about these shoes please contact us.</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> San Diego, US<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone:858-776-5593 <br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: Christianhan37@mail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
