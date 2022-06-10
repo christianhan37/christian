@@ -1,0 +1,23 @@
+body {
+  background-color: #FCECC9;
+}
+h1 {
+  font-size: 20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  background-color: #BDC696;
+  width:100%;
+  top: 10;
+  left: 5;
+  }
+li {
+  display: inline;
+  float: left;
+width: 200px;
+padding: 5px;
+margin: 5px;
+}
