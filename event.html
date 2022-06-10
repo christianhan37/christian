@@ -1,0 +1,48 @@
+<body> 
+  <ul> 
+    <li><a href="#home">Home</a></li>
+    <li><a href="#Places">About our Event </a> </li>
+    <li><a href="#Anime"> Help/FAQ </a></li>
+       
+  </ul>
+  
+ <html>
+<head>
+<style>
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 40px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<div class="grid-container">
+  <div class="item1">BTS Concert </div>
+  <div class="item2">The Next BTS Concert <img src= "https://qph.fs.quoracdn.net/main-qimg-99aa1ad253db18d4b6db6f8ce8f60349" alt="Girl in a jacket" width="300" height="300"> </div>
+  <div class="item3">Image <img src= "https://img4.yna.co.kr/photo/yna/YH/2021/11/29/PYH2021112911380032500_P4.jpg"> </div>  
+  <div class="item4">Location <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d56343887.34917783!2d128.2191315!3d30.4656286!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a99ba53801a557%3A0x9271f7fb2e01f292!2sBTS%20CONCERT%20AVENUE!5e0!3m2!1sen!2sus!4v1647997670447!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>  </div>
+  <div class="item5">Tickets <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe2gqGU9X4UWn-Yf1BTaG4Ed5f5SXLpQVuUHW15BsF34nZYtg/viewform?embedded=true" width="640" height="1050" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> </div>
+</div>
+
+</body>
+</html>
